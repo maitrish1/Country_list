@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display: flex;
+    
+}
+.show-data{
+    width: 30vw;
+}
+#card-country, #card-site{
+    width: 25vw;
+   
+}
+#card-country:nth-child(3){
+    background-color: aqua;
+}
