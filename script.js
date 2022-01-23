@@ -10,6 +10,7 @@ submitCountry.addEventListener('click', e=>{
 })
 
 async function getData(countryNameValue){
+    listCountry.innerHTML=''
     console.log('inside getdata  '+countryNameValue)
     let value=await fetch(`http://universities.hipolabs.com/search?country=${countryNameValue}`)
     const data=await value.json()
